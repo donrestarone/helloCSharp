@@ -2,11 +2,12 @@
 
 namespace helloCSharp
 {
-    class MainClass
+    class Program
     {
-        public static void Main(string[] args)
+        //this main method takes an argument of string array and returns nothing, hence void
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello C#!");
         }
     }
 }
